@@ -14,4 +14,4 @@ function _scripts () {
     compadd -- $completions
 }
 
-compdef _scripts npm run
+compdef _scripts yarn run
