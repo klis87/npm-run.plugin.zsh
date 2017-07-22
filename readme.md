@@ -1,18 +1,8 @@
 # npm-run.plugin.zsh
 
-> Autocompletion support for `npm run`.
+> Autocompletion support for `yarn run`.
 
 ## Installation
-
-Install with npm or manually.
-
-### Via npm
-
-    $ npm install -g npm-run.plugin.zsh
-
-After that you have to restart your `zsh`.
-
-**Important note:** `npm-run.plugin.zsh` utilizes `GNU Grep` under the hood. Please make sure that you have the _GNU Command Line Tools_ installed.
 
 ### Manually
 
@@ -27,17 +17,17 @@ source $HOME/zsh-extensions/npm-run.plugin.zsh/npm-run.plugin.zsh
 
 ### Via antigen
 
-    $ antigen bundle akoenig/npm-run.plugin.zsh
+    $ antigen bundle klis87/npm-run.plugin.zsh
 
 ## Usage
 
 Switch to your project (a.k.a. the place where the `package.json` lives):
 
-    $ npm run <TAB>
+    $ yarn run <TAB>
 
 Exemplary output:
 
-    λ myproject → git master* → npm run
+    λ myproject → git master* → yarn run
     build    watch    dev
 
 ## Author
