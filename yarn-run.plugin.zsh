@@ -1,7 +1,7 @@
 #
-# npm-run.plugin.zsh
+# yarn-run.plugin.zsh
 # 
-# Autocompletion for `npm run scripts`
+# Autocompletion for `yarn run scripts`
 #
 # Copyright(c) 2015 André König <andre.koenig@posteo.de>
 # MIT Licensed
